@@ -95,6 +95,14 @@ body {
   }
 }
 
-h6{
-  color: #FFD700;
+h6 {
+  color: #ffd700;
+  display: inline-block; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+h6:hover {
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.2); 
+  cursor: pointer;
 }
